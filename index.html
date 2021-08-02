@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Comments Widget</title>
+      <link rel="stylesheet" href="./style.css" />
+      <link
+         rel="stylesheet"
+         href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      />
+   </head>
+   <body>
+      <div class="alert">
+         <h2></h2>
+      </div>
+      <main>
+         <div class="comment-add">
+            <div class="comment-box">
+               <input type="text" name="name" placeholder="Enter your name..." />
+               <textarea
+                  name="comment"
+                  id=""
+                  placeholder="Enter you comment..."
+               ></textarea>
+               <button type="button" id="addComment">Add</button>
+               <button type="button" id="clearComment">Clear</button>
+            </div>
+         </div>
+         <div class="comment-view">
+            <div class="comment-lists">
+               <ul>
+                  <li>
+                     <span>Hetu Patel: </span>
+                     <p>Hello, How are you?</p>
+                     <a href="javascript:void(0)"><i class="fas fa-thumbs-up"></i></a>
+                     <a href="javascript:void(0);" id="ds"
+                        ><i class="fas fa-thumbs-down"></i
+                     ></a>
+                     <a href="javascript:void(0)">Reply</a>
+                     <a href="javascript:void(0)">Delete</a>
+                  </li>
+                  <div class="reply-box">
+                     <input
+                        type="text"
+                        name="replyName"
+                        placeholder="Enter your name..."
+                     />
+                     <textarea
+                        name="replyComment"
+                        placeholder="Enter you comment..."
+                     ></textarea>
+                     <button type="button" id="addReply">Add</button>
+                     <button type="button" id="clearReply">Cancle</button>
+                  </div>
+               </ul>
+            </div>
+         </div>
+      </main>
+
+      <script src="./index.js"></script>
+   </body>
+</html>

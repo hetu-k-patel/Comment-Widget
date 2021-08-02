@@ -1,0 +1,192 @@
+* {
+   box-sizing: border-box;
+}
+
+html {
+   font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+   background-color: #2f5d62;
+}
+
+ul {
+   list-style-type: none;
+   margin-top: 10px;
+}
+
+p {
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+   color: #a7c4bc;
+   display: inline-block;
+   margin: 0 6px;
+}
+
+main {
+   width: 70%;
+   margin: 40px auto;
+   box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
+      rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
+      rgb(0 0 0 / 9%) 0px -3px 5px;
+   background-color: #5e8b7e;
+}
+
+.comment-add {
+   padding: 20px;
+}
+
+.comment-add .comment-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.comment-add .comment-box textarea {
+   margin: 0 20px;
+   width: 60%;
+   height: 70px;
+   outline: none;
+   border: none;
+   background-color: #a7c4bc;
+   border-radius: 5px;
+   font-size: 16px;
+   padding: 10px;
+   letter-spacing: 1.3px;
+}
+
+.comment-add .comment-box input {
+   margin: 0 20px;
+   outline: none;
+   border: none;
+   background-color: #a7c4bc;
+   border-radius: 5px;
+   padding: 10px;
+   letter-spacing: 1.3px;
+}
+
+.comment-add .comment-box button {
+   padding: 8px 20px;
+   margin: 0 10px;
+   border-radius: 10px;
+   border: none;
+   background-color: #346751;
+   color: white;
+   letter-spacing: 1.2px;
+   font-size: 15px;
+   outline: none;
+   cursor: pointer;
+}
+
+.comment-add .comment-box button:hover {
+   background-color: #c84b31;
+   color: white;
+}
+
+.comment-view {
+   padding: 80px 0;
+   margin: 0 auto;
+   width: 80%;
+}
+
+.comment-view .comment-lists ul li span {
+   display: inline-block;
+   text-transform: uppercase;
+   letter-spacing: 1.2px;
+   font-weight: 600;
+   margin-bottom: 5px;
+   font-size: 15px;
+}
+
+.comment-view .comment-lists ul li p {
+   margin-bottom: 2px;
+   word-break: break-all;
+   line-height: 1.4;
+   font-size: 15px;
+}
+
+.comment-view .comment-lists ul li a {
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 700;
+   letter-spacing: 0.8px;
+}
+
+.like,
+.dislike {
+   color: #c84b31;
+}
+
+.alert {
+   width: 70%;
+   text-align: center;
+   margin: 0 auto;
+   transition: all 0.5s ease;
+   border-radius: 40px;
+   visibility: hidden;
+}
+
+.alert h2 {
+   padding: 15px 50px;
+   letter-spacing: 1.3px;
+}
+
+.success-add {
+   background-color: rgb(91, 226, 91);
+   color: white;
+}
+
+.success-delete {
+   background-color: rgb(240, 65, 65);
+   color: white;
+}
+
+.comment-lists .reply-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.comment-lists .reply-box textarea {
+   margin: 0 20px;
+   width: 60%;
+   height: 70px;
+   outline: none;
+   border: none;
+   background-color: #a7c4bc;
+   border-radius: 5px;
+   font-size: 16px;
+   padding: 10px;
+   letter-spacing: 1.3px;
+}
+
+.comment-lists .reply-box input {
+   margin: 0 20px;
+   outline: none;
+   border: none;
+   background-color: #a7c4bc;
+   border-radius: 5px;
+   padding: 10px;
+   letter-spacing: 1.3px;
+}
+
+.comment-lists .reply-box button {
+   padding: 8px 20px;
+   margin: 0 10px;
+   border-radius: 10px;
+   border: none;
+   background-color: #346751;
+   color: white;
+   letter-spacing: 1.2px;
+   font-size: 15px;
+   outline: none;
+   cursor: pointer;
+}
+
+.comment-lists .reply-box button:hover {
+   background-color: #c84b31;
+   color: white;
+}
